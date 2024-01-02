@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top {
+  background-color: #15eb99;
+}
+.top p {
+  font-size: 4rem;
+  color: rgb(43, 43, 218);
+  text-align: center;
+  padding: 2.25rem;
+}
+main {
+  display: flex;
+  width: 70%;
+  /* justify-content: center; */
+  border: 3px solid red;
+  margin: 0 auto;
+}
+.panel {
+  background-color: #acbaf6;
+  width: 30%;
+}
+.box-container {
+  border: 10px solid grey;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
