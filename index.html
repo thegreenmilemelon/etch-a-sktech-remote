@@ -15,9 +15,18 @@
     <main>
         <div class="panel">
             <p>Drag</p>
+            <!-- slider number max 64 and show the value  -->
+            <div class="slider-container">
+                <input type="range" min="1" max="64" value="16" class="slider">
+                <span class="slider-value">16</span>
+            </div>
+
+
+            <button class="clear" onclick="clearGrid()">Clear</button>
+            <button class="reset" onclick="clearGrid()">Reset</button>
         </div>
         <div class="box-container">
-            <div class="box">p</div>
+
         </div>
     </main>
     <script src="scripts.js"></script>
